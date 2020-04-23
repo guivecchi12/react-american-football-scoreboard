@@ -55,6 +55,7 @@ function App() {
                     setNameH(homeTeam = team[0]);
                     setValueL(lionsScore = parseInt(team[1]));
                     console.log(homeTeam);
+                    x.style.display = "none";
                   }
                 })
                 
